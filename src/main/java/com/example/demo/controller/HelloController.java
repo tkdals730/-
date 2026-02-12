@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Spring 서버 실행 성공!";
+        return "index";
     }
 }
